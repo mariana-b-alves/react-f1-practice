@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+/*************HEADER STYLES*************/
+
+header {
+    background-color: rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    position: fixed;
+    z-index: 101;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 13vh;
+    padding: 40px 25px;
+}
+
+header a {
+    color: white;
+
+    text-decoration: none;
+
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+
+    width: 9em;
+}
+
+header figure {
+    flex: 5;
+    display: flex;
+    align-items: center;
+}
+
+header figure img {
+    width: 10em;
+}
+
+header nav {
+    flex: 1;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: none;
+    font-size: 1.05em;
+    align-items: center;
+    justify-content: center; 
+    gap: 2.6em;
+    list-style-type: none;
+}
+
+.active {
+    color: rgb(255, 0, 0);
+    
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+div.hamburger {
+    font-weight: 600;
+    font-family: "Rubik Mono One", monospace;
+    font-size: 2.6em;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+div.hamburger:hover {
+    color:  red;
+    
+    transform: scale(1.1);
+    transition: ease-in-out;
+}
+
+/*************GLITCH EFFECT STYLES*************/
+
+.glitch {
+    position: relative;
+    display: inline-block;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    color: white;
+
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.glitch::before, .glitch::after {
+    content: attr(data-text);
+
+    display: block;
+    position: absolute;
+
+    text-transform: uppercase;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    
+    opacity: 0.8;
+}
+
+.glitch::before {
+    color: rgb(0, 191, 255);
+    z-index: -1;
+}
+
+.glitch::after {
+    color: rgb(213, 0, 0);
+    z-index: -2; 
+}
+
+.glitch:hover::before {
+    animation: glitch 0.3s cubic-bezier(0.1, 0.3, 0.3, 0.8) both;
+}
+
+.glitch:hover::after {
+    animation: glitch 0.3s cubic-bezier(0.1, 0.3, 0.3, 0.8) reverse both;
+}
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        transform: translate(-2px, -2px);
+    }
+    
+    60% {
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+/*************MEDIA QUERIES*************/
+
+@media screen and (min-width: 900px) {
+    header ul {
+        display: flex;
+    }
+
+    div.hamburger {
+        display: none;
+        flex: 3;
+    }
+}

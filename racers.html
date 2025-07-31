@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/racers_index.css">
     <title>F1 2020-2025 Racers</title>
 </head>
 <body>
     <header>
         <figure>
-            <!-- <a href="#"><img src="public/img/f1-logo.png" alt="Formula 1 logo in red; directs to homepage after clicking"></a> -->
+            <a href="homepage.html"><img src="public/img/f1-logo.png" alt="Formula 1 logo in red; directs to homepage after clicking"></a>
         </figure>
         
         <nav>
             <ul>
-                <li><a href="about.html">ABOUT</a></li>
-                <li class="active">RACERS</li>
+                <li><a href="about.html" class="glitch" data-text="ABOUT">ABOUT</a></li>
+                <li><a href="racers.html" class="active" data-text="RACERS">RACERS</a></li>
             </ul>
-        
+
             <div class="nav-icons">
-              <div class="hamburger" id="openBtn">&#9776;</div>
+                <div class="hamburger" id="openBtn">&#9776;</div>
             </div>
         </nav>
-
     </header>
 
     <section id="overlay" class="overlay"></section>
@@ -29,8 +29,10 @@
     <section id="sideMenu" class="sideNav">
         <article>
             <a class="closeBtn" id="closeBtn">&times;</a>
-            <a href="about.html">ABOUT</a>
-            <a class="active">RACERS</a>
+            <ul>
+                <li><a href="about.html" class="glitch" data-text="ABOUT">ABOUT</a></li>
+                <li><a href="racers.html" class="glitch" data-text="RACERS">RACERS</a></li>
+            </ul>
         </article>
     </section>
 

@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formula 1 2020-2025 Racers</title>
+    <link rel="stylesheet" href="./src/homepage_index.css">
+    <title>F1 2020-2025 Racers</title>
 </head>
 <body>
+    
     <header>
         <figure>
-            <!-- <a href="#"><img src="public/img/f1-logo.png" alt="Formula 1 logo in red; directs to homepage after clicking"></a> -->
+            <a href="homepage.html"><img src="public/img/f1-logo.png" alt="Formula 1 logo in red; directs to homepage after clicking"></a>
         </figure>
         
         <nav>
             <ul>
-                <li class="active">ABOUT</li>
-                <li><a href="racers.html">RACERS</a></li>
+                <li><a href="about.html" class="glitch" data-text="ABOUT">ABOUT</a></li>
+                <li><a href="racers.html" class="glitch" data-text="RACERS">RACERS</a></li>
             </ul>
-        
+
             <div class="nav-icons">
-              <div class="hamburger" id="openBtn">&#9776;</div>
+                <div class="hamburger" id="openBtn">&#9776;</div>
             </div>
         </nav>
-
     </header>
 
     <section id="overlay" class="overlay"></section>
@@ -29,43 +30,45 @@
     <section id="sideMenu" class="sideNav">
         <article>
             <a class="closeBtn" id="closeBtn">&times;</a>
-            <a class="active">ABOUT</a>
-            <a href="racers.html">RACERS</a>
+            <ul>
+                <li><a href="about.html" class="active" data-text="ABOUT">ABOUT</a></li>
+                <li><a href="racers.html" class="glitch" data-text="RACERS">RACERS</a></li>
+            </ul>
         </article>
     </section>
 
-  <main>
-    <section class="about">
-        <h1 class="main-title">HISTORY OF FORMULA 1</h1>
+    <main>
+        <section class="about">
+            <h1 class="main-title">HISTORY OF FORMULA 1</h1>
+    
+            <article class="sport">
+                <h1>What is Formula 1?</h1>
+                <p>Formula 1, also known as F1, is the most prestigous open-wheel race championship in the world, well done by being a high-speed competition, with cars surpassing 350 km/h. It is also renowned by pioneering many of the techniques and technological advancements still used today in this sport and in many others.</p>
+            </article>
+            <article class="origins">
+                <h1>The Origins of Formula 1</h1>
+                <p>Before F1, competitions like the Gran Prix were successful in Europe. However, there was a need to create a cohesive, structured event.</p>
+                <p>Thus, F1 was created in 1950, with teams such as Ferrari and Alfa Romeo being a part of the roster. Its first ever championship was held at Silverstone, United Kingdom. Since then, races have been held in many other countries such as Monaco, Canada, Qatar, among others.</p>
+            </article>
+            <article class="turbo">
+                <h1>Speed and Golden Era (1960s-1990s)</h1>
+                <p>During the 1960s and 1970s, great technological advancements and safety measures were put in place, turning the sport more exciting, but also safer.</p>
+                <p>The 1980s was the decade of turbo-powered engines, reaching 10000 horsepower, carbon fibre chasis, ground effect aerodynamics, and much more in the realm of techonology. Rivalries betweem Niki Lauda, James Hunt, and especially between Ayrton Senna, and Alain Prost propelled F1 to new levels of popularity.</p>
+            </article>
+            <article class="modern">
+                <h1>Modern Era (2000s-)</h1>
+                <p>The early 2000s marked the peak era for Michael Schumacher, with five consecutive wins. The next decade was defined by Vettel and Hamilton's dominance, the latter being surpassed by Verstappen on the current decade.</p>
+                <p>As F1's attempt to become more sustainable and ecologically friendly, hybrid engines were introduced to the competition.</p>
+            </article>
+            <article class="future">
+                <h1>The Future of F1 (2020s-)</h1>
+                <p>Continuing this major overhaul, F1 is focused on turning their engines fully electrical, as well as net-zero carbon emissions until the start of the next decade.</p>
+            </article>
+        </section>
+    
+        <footer>
+            <p>&copy; 2025 All rights reserved</p>
+        </footer>
 
-        <article class="sport">
-            <h1>What is Formula 1?</h1>
-            <p>Formula 1, also known as F1, is the most prestigous open-wheel race championship in the world, well done by being a high-speed competition, with cars surpassing 350 km/h. It is also renowned by pioneering many of the techniques and technological advancements still used today in this sport and in many others.</p>
-        </article>
-        <article class="origins">
-            <h1>The Origins of Formula 1</h1>
-            <p>Before F1, competitions like the Gran Prix were successful in Europe. However, there was a need to create a cohesive, structured event.</p>
-            <p>Thus, F1 was created in 1950, with teams such as Ferrari and Alfa Romeo being a part of the roster. Its first ever championship was held at Silverstone, United Kingdom. Since then, races have been held in many other countries such as Monaco, Canada, Qatar, among others.</p>
-        </article>
-        <article class="turbo">
-            <h1>Speed and Golden Era (1960s-1990s)</h1>
-            <p>During the 1960s and 1970s, great technological advancements and safety measures were put in place, turning the sport more exciting, but also safer.</p>
-            <p>The 1980s was the decade of turbo-powered engines, reaching 10000 horsepower, carbon fibre chasis, ground effect aerodynamics, and much more in the realm of techonology. Rivalries betweem Niki Lauda, James Hunt, and especially between Ayrton Senna, and Alain Prost propelled F1 to new levels of popularity.</p>
-        </article>
-        <article class="modern">
-            <h1>Modern Era (2000s-)</h1>
-            <p>The early 2000s marked the peak era for Michael Schumacher, with five consecutive wins. The next decade was defined by Vettel and Hamilton's dominance, the latter being surpassed by Verstappen on the current decade.</p>
-            <p>As F1's attempt to become more sustainable and ecologically friendly, hybrid engines were introduced to the competition.</p>
-        </article>
-        <article class="future">
-            <h1>The Future of F1 (2020s-)</h1>
-            <p>Continuing this major overhaul, F1 is focused on turning their engines fully electrical, as well as net-zero carbon emissions until the start of the next decade.</p>
-        </article>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 All rights reserved</p>
-    </footer>
-  </main>
 </body>
 </html>
