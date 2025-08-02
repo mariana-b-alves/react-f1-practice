@@ -31,7 +31,7 @@
         <article>
             <a class="closeBtn" id="closeBtn">&times;</a>
             <ul>
-                <li><a href="about.html" class="glitch" data-text="ABOUT">ABOUT</a></li>
+                <li class="active">ABOUT</li>
                 <li><a href="racers.html" class="glitch" data-text="RACERS">RACERS</a></li>
             </ul>
         </article>
@@ -39,15 +39,20 @@
 
     <main>
         <section class="info">
-            <h1 class="main-title"></h1>
             <article class="block">
+                <video autoplay muted loop id="myVideo1">
+                    <source src="./public/mp4/f1-intro.mp4" type="video/mp4">
+                  </video> 
                 <p>This is a website dedicated to showing all Formula 1 racers from the last 5 years. Here you can check their names, years they've been running, races run, and individual stats.</p>
-                <button><a href="racers.html">GO TO RACERS PAGE</a></button>
+                <a href="racers.html" class="btn">GO TO RACERS PAGE</a>
             </article>
 
             <article class="block">
+                <video autoplay muted loop id="myVideo2">
+                    <source src="./public/mp4/f1-evo.mp4" type="video/mp4">
+                  </video> 
                 <p>Know more about the history of Formula 1 and how it changed over the years here.</p>
-                <button><a href="about.html">GO TO ABOUT PAGE</a></button>
+                <a href="about.html" class="btn">GO TO ABOUT PAGE</a>
             </article>
         </section>
 
