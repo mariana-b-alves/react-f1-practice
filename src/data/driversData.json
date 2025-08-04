@@ -1,0 +1,153 @@
+[
+    { "name": "Lewis Hamilton",  "teams": [
+            { "team": "Mercedes", "years": [2020, 2021, 2022, 2023, 2024] },
+            { "team": "Ferrari", "years": [2025] }
+        ] 
+    },
+    { "name": "Valtteri Bottas", "teams": [
+            { "team": "Mercedes", "years": [2020, 2021] },
+            { "team": "Alfa Romeo / Sauber ", "years": [2022, 2023, 2024] }
+        ]
+    },
+
+    { "name": "Sebastian Vettel", "teams": [
+            { "team": "Ferrari", "years": [2020] },
+            { "team": "Alfa Romeo / Sauber ", "years": [2021, 2022] }
+        ]
+    },
+
+    { "name": "Max Verstappen", "teams": [
+            { "team": "Red Bull Racing", "years": [2020, 2021, 2022, 2023, 2024, 2025] }
+        ]
+    },
+
+    { "name": "Alex Albon", "teams": [
+            { "team": "Red Bull Racing", "years": [2020, 2021, 2022] },
+            { "team": "Williams", "years": [2023, 2024, 2025] }
+        ]
+    },
+    { "name": "Carlos Sainz", "teams": [
+            { "team": "McLaren", "years": [2020] },
+            { "team": "Ferrari", "years": [2021, 2022, 2023, 2024] },
+            { "team": "Williams", "years": [2025] }
+        ]
+    },
+    { "name": "Lando Norris", "teams": [
+            { "team": "McLaren", "years": [2020, 2021, 2022, 2023, 2024, 2025] }
+        ]
+    },
+    { "name": "Daniel Ricciardo", "teams": [
+            { "team": "Renault", "years": [2020] },
+            { "team": "McLaren", "years": [2021, 2022] },
+            { "team": "AlphaTauri / Red Bull Racing", "years": [2023, 2024] }
+        ]
+    },
+    { "name": "Esteban Ocon", "teams": [
+            { "team": "Renault", "years": [2020] },
+            { "team": "Alpine", "years": [2021, 2022, 2023, 2024] },
+            { "team": "Haas", "years": [2025] }
+        ]
+    },
+    { "name": "Pierre Gasly", "teams": [
+            { "team": "AlphaTauri", "years": [2020, 2021, 2022] },
+            { "team": "Alpine", "years": [2023, 2024, 2025] }
+        ]
+    },
+    { "name": "Daniil Kyvat", "teams": [
+            { "team": "AlphaTauri", "years": [2020] }
+        ]
+    },
+    { "name": "Sergio Pérez", "teams": [
+            { "team": "Racing Point", "years": [2020] },
+            { "team": "Red Bull Racing", "years": [2021, 2022, 2023, 2024] }
+        ]
+    },
+    { "name": "Lance Stroll", "teams": [
+            { "team": "Racing Point", "years": [2020] },
+            { "team": "Aston Martin", "years": [2021, 2022, 2023, 2024, 2025] }
+        ]
+    },
+    { "name": "Kimi Räikkönen", "teams": [
+            { "team": "Ferrari", "years": [2020] },
+            { "team": "Alfa Romeo", "years": [2021] }
+        ]
+    },
+    { "name": "Kevin Magnussen", "teams": [
+            { "team": "Haas", "years": [2020, 2022, 2023, 2024] }
+        ]
+    },
+    { "name": "Romain Grosjean", "teams": [
+            { "team": "Haas", "years": [2020] }
+        ]
+    },
+    { "name": "George Russell", "teams": [
+            { "team": "Williams", "years": [2020, 2021] },
+            { "team": "Alfa Romeo", "years": [2022, 2023, 2024, 2025] }
+        ]
+    },
+    { "name": "Nicholas Latifi", "teams": [
+            { "team": "Williams", "years": [2020, 2021, 2022] }
+        ]
+    },
+    { "name": "Yuki Tsunoda", "teams": [
+            { "team": "AlphaTauri", "years": [2021, 2022, 2023] },
+            { "team": "Racing Bulls", "years": [2024, 2025] },
+            { "team": "Red Bull Racing", "years": [2025] }
+        ]
+    },
+    { "name": "Mick Schumacher", "teams": [
+            { "team": "Haas", "years": [2021, 2022] }
+        ]
+    },
+    { "name": "Nikita Mazepin", "teams": [
+            { "team": "Haas", "years": [2021] }
+        ]
+    },
+    { "name": "Zhou Guanyu", "teams": [
+            { "team": "Alfa Romeo / Sauber", "years": [2022, 2023, 2024] }
+        ]
+    },
+    { "name": "Nico Hülkenberg", "teams": [
+            { "team": "Haas", "years": [2023, 2024] },
+            { "team": "Sauber / Audi", "years": [2025] }
+        ]
+    },
+    { "name": "Nyck de Vries", "teams": [
+            { "team": "AlphaTauri", "years": [2023] }
+        ]
+    },
+    { "name": "Charles Leclerc", "teams": [
+            { "team": "Ferrari", "years": [2020, 2021, 2022, 2023, 2024, 2025] }
+        ]
+    },
+    { "name": "Logan Sargeant", "teams": [
+            { "team": "Williams", "years": [2023, 2024] }
+        ]
+    },
+    { "name": "Oscar Piastri", "teams": [
+            { "team": "McLaren", "years": [2023, 2024, 2025] }
+        ]
+    },
+    { "name": "Kimi Antonelli", "teams": [
+            { "team": "Mercedes", "years": [2025] }
+        ]
+    },
+    { "name": "Liam Lawson", "teams": [
+            { "team": "Red Bull Racing", "years": [2025] },
+            { "team": "AlphaTauri / Racing Bulls", "years": [2025] }
+        ]
+    },
+    { "name": "Fernando Alonso",  "teams": [
+            { "team": "Alpine", "years": [2021, 2022] },
+            { "team": "Aston Martin", "years": [2023, 2024, 2025] }
+        ] 
+    },
+    { "name": "Oliver Bearman", "teams": [
+            { "team": "Haas", "years": [2025] }
+        ]
+    },
+    { "name": "Franco Colapinto", "teams": [
+            { "team": "Alpine", "years": [2025] }
+        ]
+    }
+]
