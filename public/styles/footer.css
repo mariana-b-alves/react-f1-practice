@@ -3,18 +3,22 @@ footer{
     background-color: rgba(0, 0, 0, 0.4);
 
     color: white;
+
     bottom: 0;
     left: 0;
     right: 0;
+
     height: 5.6em;
 
+    margin-top: 15vh;
     padding: 1em;
 
-    position: fixed;
+    position: static;
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    
     z-index: 100;
 }
