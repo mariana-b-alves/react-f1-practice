@@ -1,0 +1,43 @@
+.info{
+    text-align: center;
+    
+}
+.block{
+    height: 130vh;
+    padding-top: 15em;
+    margin-left: 10em;
+    margin-right: 10em; 
+}
+
+
+#myVideo1, #myVideo2{
+    position: absolute;
+    
+    width: 100%;
+
+    object-fit: cover;
+
+    z-index: -1;
+}
+
+#myVideo1{
+    top: 0;
+    left: 0;
+
+    height: 100%;
+
+}
+
+#myVideo2{
+    top: 100%;
+    left: 0;
+
+    height: 170%;
+}
+
+.block p{
+    text-align: left;
+    margin-bottom: 5em;
+    font-size: 1.4em;
+    color: white;
+}

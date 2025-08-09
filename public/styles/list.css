@@ -1,0 +1,27 @@
+.list{
+    margin-top: 18vh;
+}
+
+.list h1{
+    font-size: 2.3em;
+}
+
+.p-dropdown{
+    margin: 1.7em 0;
+}
+
+.p-datatable .p-datatable-thead > tr > th, .p-datatable .p-datatable-tbody > tr > td {
+  border-bottom: 1px solid #ddd;
+  padding: .8em 1.4em;
+}
+
+.p-paginator {
+    gap: 1em;
+  }
+
+.p-paginator .p-dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+@media screen and (max-width: 900px) {
+
+    /******** OVERLAY STYLES ********/
+    .overlay {
+        position: fixed;
+
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: opacity 0.4s ease;
+
+        opacity: 0;
+
+        z-index: 101;
+    }
+
+    /******** FIGURE STYLES ********/
+    .sideNav figure {
+        width: 11em;
+        
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+
+    /******** SIDENAV STYLES ********/
+    .sideNav {
+        height: 100%;
+        width: 100vw;
+
+        top: 0;
+        right: -100vw;
+        padding-top: 4.3em;
+
+        position: fixed;
+
+        z-index: 102;
+        overflow-x: hidden;
+
+        background-color: rgba(0, 0, 0, 0.4);
+
+        transition: right 0.6s ease;
+        
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .sideNav.open {
+        right: 0;
+      }
+
+    .sideNav .closeBtn {
+        position: absolute;
+
+        font-size: 4em;
+
+        right: 0;
+        top: 0;
+
+        cursor: pointer;
+    }
+
+    a.closeBtn:hover {
+        color: rgb(213, 0, 0);
+
+        transform: scale(1.1);
+        transition: ease-in-out;
+    }
+
+    /******** SIDENAV A AND LI STYLES ********/
+    .glitch, .sideNav a, .sideNav li {
+        display: block;
+        
+        text-decoration: none;
+        font-family: "Rubik Mono One", monospace;
+        font-size: 1.45em;
+
+        color: white;
+
+        cursor: pointer;
+
+        margin: 0 3em 2em 0;
+    }
+}
+
+.glitch::before, .glitch::after {
+    
+
+    display: block;
+    position: absolute;
+
+    text-transform: uppercase;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    
+    opacity: 0.8;
+}
+
+.glitch::before {
+    color: rgb(0, 191, 255);
+    z-index: -1;
+}
+
+.glitch::after {
+    color: rgb(213, 0, 0);
+    z-index: -2; 
+}
+
+.glitch:hover::before {
+    animation: glitch 0.3s cubic-bezier(0.1, 0.3, 0.3, 0.8) both;
+}
+
+.glitch:hover::after {
+    animation: glitch 0.3s cubic-bezier(0.1, 0.3, 0.3, 0.8) reverse both;
+}
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        transform: translate(-2px, -2px);
+    }
+    
+    60% {
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .sideNav, .overlay {
+        display: none !important;
+    }
+}

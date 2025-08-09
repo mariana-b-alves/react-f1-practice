@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-family: "Rubik Mono One", monospace;
+    color: white;
+
+}
+
+main{
+    text-align: center;
+
+}
+
+img, video, object{
+    max-width: 100%;
+  }
