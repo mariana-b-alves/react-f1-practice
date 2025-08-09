@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header>
             <figure>
-                <Link to="/react-f1-practice/">
+                <Link to="/">
                     <img src="/img/f1-logo.png" alt="Formula 1 logo in red; directs to homepage after clicking" />
                 </Link>
             </figure>
