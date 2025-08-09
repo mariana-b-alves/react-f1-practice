@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/react-f1-practice">
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<HomePageIndex />} />
         <Route path="/about" element={<AboutPage />} />
