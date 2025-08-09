@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePageIndex />} />
+        <Route path="/react-f1-practice/" element={<HomePageIndex />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/racers" element={<RacersPage />} /> 
       </Routes>
