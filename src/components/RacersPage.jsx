@@ -76,10 +76,14 @@ const RacersPage = () => {
             sortOrder={-1} 
           >
             <Column field="name" header="Driver" sortable style={{ width: '25%' }}/>
+
             <Column field="team" header="Team" sortable style={{ width: '25%' }}/>
-            <Column field="poleposition" header="Pole Positions" sortable style={{ width: '25%' }}/>
-            <Column field="wins" header="Wins" sortable style={{ width: '25%' }}/>
-            <Column field="championships" header="Championships" sortable style={{ width: '25%' }}/>
+
+            <Column field="poleposition" header="Pole Positions (Total)" sortable style={{ width: '25%' }}/>
+
+            <Column field="wins" header="Wins (Total)" sortable style={{ width: '25%' }}/>
+
+            <Column field="championships" header="Championships (Total)" sortable style={{ width: '25%' }}/>
           </DataTable>
         </section>
       </main>
