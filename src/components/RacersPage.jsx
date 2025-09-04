@@ -21,6 +21,15 @@ const RacersPage = () => {
   const [filteredDrivers, setFilteredDrivers] = useState([]);
   const years = [2020, 2021, 2022, 2023, 2024, 2025];
 
+  const imageBodyTemplate = (rowdata) => {
+    return (
+      <img 
+        src={rowdata.image}
+        alt={rowdata.name}
+        style={{ width: '5em', height: '5em', borderRadius: '50%' }}
+        />
+    )
+  }
   const handleYearChange = (e) => {
     const year = e.value;
     setSelectedYear(year);
@@ -29,6 +38,7 @@ const RacersPage = () => {
       const teamInfo = driver.teams.find(team => team.years.includes(year));
       if (teamInfo) {
         return {
+          image: driver.image,
           name: driver.name,
           team: teamInfo.team,
           poleposition: driver.poleposition,
@@ -75,6 +85,8 @@ const RacersPage = () => {
             sortField="wins"
             sortOrder={-1} 
           >
+            <Column header="Image" body={imageBodyTemplate} style={{ width: '25%' }}/>
+
             <Column field="name" header="Driver" sortable style={{ width: '25%' }}/>
 
             <Column field="team" header="Team" sortable style={{ width: '25%' }}/>

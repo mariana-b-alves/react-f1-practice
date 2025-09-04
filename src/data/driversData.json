@@ -1,5 +1,7 @@
 [
-    { "name": "Lewis Hamilton",  "teams": [
+    {  "image": "/public/img/racer-pics/hamilton.jpg",
+        "name": "Lewis Hamilton",  
+        "teams": [
             { "team": "Mercedes", "years": [2020, 2021, 2022, 2023, 2024] },
             { "team": "Ferrari", "years": [2025] }
         ], 
@@ -7,7 +9,9 @@
         "wins": "105",
         "championships": "7"
     },
-    { "name": "Valtteri Bottas", "teams": [
+    {   "image": "/public/img/racer-pics/bottas.jpg",
+        "name": "Valtteri Bottas", 
+        "teams": [
             { "team": "Mercedes", "years": [2020, 2021] },
             { "team": "Alfa Romeo / Sauber ", "years": [2022, 2023, 2024] }
         ], 
@@ -16,7 +20,9 @@
         "championships": "0"
     },
 
-    { "name": "Sebastian Vettel", "teams": [
+    {   "image": "/public/img/racer-pics/vettel.jpg",
+        "name": "Sebastian Vettel", 
+        "teams": [
             { "team": "Ferrari", "years": [2020] },
             { "team": "Aston Martin", "years": [2021, 2022] }
         ], 
@@ -25,7 +31,9 @@
         "championships": "4"
     },
 
-    { "name": "Max Verstappen", "teams": [
+    {   "image": "/public/img/racer-pics/verstappen.jpg",
+        "name": "Max Verstappen", 
+        "teams": [
             { "team": "Red Bull Racing", "years": [2020, 2021, 2022, 2023, 2024, 2025] }
         ], 
         "poleposition": "44",
@@ -33,7 +41,9 @@
         "championships": "4"
     },
 
-    { "name": "Alex Albon", "teams": [
+    {   "image": "/public/img/racer-pics/albon.jpg",
+        "name": "Alex Albon", 
+        "teams": [
             { "team": "Red Bull Racing", "years": [2020] },
             { "team": "Williams", "years": [2022, 2023, 2024, 2025] }
         ], 
@@ -41,7 +51,9 @@
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Carlos Sainz", "teams": [
+    {   "image": "/public/img/racer-pics/sainz.jpg",
+        "name": "Carlos Sainz Jr.", 
+        "teams": [
             { "team": "McLaren", "years": [2020] },
             { "team": "Ferrari", "years": [2021, 2022, 2023, 2024] },
             { "team": "Williams", "years": [2025] }
@@ -50,14 +62,17 @@
         "wins": "4",
         "championships": "0"
     },
-    { "name": "Lando Norris", "teams": [
+    {   "image": "/public/img/racer-pics/norris.jpg",
+        "name": "Lando Norris", "teams": [
             { "team": "McLaren", "years": [2020, 2021, 2022, 2023, 2024, 2025] }
         ], 
         "poleposition": "13",
         "wins": "9",
         "championships": "0"
     },
-    { "name": "Daniel Ricciardo", "teams": [
+    {   "image": "/public/img/racer-pics/ricciardo.jpg",
+        "name": "Daniel Ricciardo", 
+        "teams": [
             { "team": "Renault", "years": [2020] },
             { "team": "McLaren", "years": [2021, 2022] },
             { "team": "Racing Bulls", "years": [2023, 2024] }
@@ -66,7 +81,9 @@
         "wins": "8",
         "championships": "0"
     },
-    { "name": "Esteban Ocon", "teams": [
+    {   "image": "/public/img/racer-pics/ocon.jpg",
+        "name": "Esteban Ocon", 
+        "teams": [
             { "team": "Renault", "years": [2020] },
             { "team": "Alpine", "years": [2021, 2022, 2023, 2024] },
             { "team": "Haas", "years": [2025] }
@@ -75,7 +92,9 @@
         "wins": "1",
         "championships": "0"
     },
-    { "name": "Pierre Gasly", "teams": [
+    {   "image": "/public/img/racer-pics/gasly.jpg",
+        "name": "Pierre Gasly", 
+        "teams": [
             { "team": "AlphaTauri", "years": [2020, 2021, 2022] },
             { "team": "Alpine", "years": [2023, 2024, 2025] }
         ], 
@@ -83,14 +102,18 @@
         "wins": "1",
         "championships": "0"
     },
-    { "name": "Daniil Kyvat", "teams": [
+    {   "image": "/public/img/racer-pics/kyvat.jpg",
+        "name": "Daniil Kyvat", 
+        "teams": [
             { "team": "AlphaTauri", "years": [2020] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Sergio Pérez", "teams": [
+    {   "image": "/public/img/racer-pics/perez.jpg",
+        "name": "Sergio Pérez", 
+        "teams": [
             { "team": "Racing Point", "years": [2020] },
             { "team": "Red Bull Racing", "years": [2021, 2022, 2023, 2024] }
         ], 
@@ -98,7 +121,9 @@
         "wins": "12",
         "championships": "0"
     },
-    { "name": "Lance Stroll", "teams": [
+    {   "image": "/public/img/racer-pics/stroll.jpg",
+        "name": "Lance Stroll", 
+        "teams": [
             { "team": "Racing Point", "years": [2020] },
             { "team": "Aston Martin", "years": [2021, 2022, 2023, 2024, 2025] }
         ], 
@@ -106,28 +131,35 @@
         "wins": "1",
         "championships": "0"
     },
-    { "name": "Kimi Räikkönen", "teams": [
+    {   "image": "/public/img/racer-pics/raikkonen.jpg",
+        "name": "Kimi Räikkönen", "teams": [
             { "team": "Alfa Romeo", "years": [2020, 2021] }
         ], 
         "poleposition": "18",
         "wins": "21",
         "championships": "1"
     },
-    { "name": "Kevin Magnussen", "teams": [
+    {   "image": "/public/img/racer-pics/magnussen.jpg",
+        "name": "Kevin Magnussen", 
+        "teams": [
             { "team": "Haas", "years": [2020, 2022, 2023, 2024] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Romain Grosjean", "teams": [
+    {   "image": "/public/img/racer-pics/grosjean.jpg",
+        "name": "Romain Grosjean", 
+        "teams": [
             { "team": "Haas", "years": [2020] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "George Russell", "teams": [
+    {   "image": "/public/img/racer-pics/russell.jpg",
+        "name": "George Russell", 
+        "teams": [
             { "team": "Williams", "years": [2020, 2021] },
             { "team": "Mercedes", "years": [2022, 2023, 2024, 2025] }
         ], 
@@ -135,14 +167,18 @@
         "wins": "4",
         "championships": "0"
     },
-    { "name": "Nicholas Latifi", "teams": [
+    {   "image": "/public/img/racer-pics/latifi.jpg",
+        "name": "Nicholas Latifi", 
+        "teams": [
             { "team": "Williams", "years": [2020, 2021, 2022] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Yuki Tsunoda", "teams": [
+    {   "image": "/public/img/racer-pics/tsunoda.jpg",
+        "name": "Yuki Tsunoda", 
+        "teams": [
             { "team": "AlphaTauri / Racing Bulls", "years": [2021, 2022, 2023, 2024] },
             { "team": "Red Bull Racing", "years": [2025] }
         ], 
@@ -150,28 +186,36 @@
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Mick Schumacher", "teams": [
+    {   "image": "/public/img/racer-pics/schumacher.jpg",
+        "name": "Mick Schumacher", 
+        "teams": [
             { "team": "Haas", "years": [2021, 2022] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Nikita Mazepin", "teams": [
+    {   "image": "/public/img/racer-pics/mazepin.jpg",
+        "name": "Nikita Mazepin", 
+        "teams": [
             { "team": "Haas", "years": [2021] }
         ], 
         "poleposition": "2",
         "wins": "2",
         "championships": "0"
     },
-    { "name": "Zhou Guanyu", "teams": [
+    {   "image": "/public/img/racer-pics/zhou.jpg",
+        "name": "Zhou Guanyu", 
+        "teams": [
             { "team": "Alfa Romeo / Sauber", "years": [2022, 2023, 2024] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Nico Hülkenberg", "teams": [
+    {   "image": "/public/img/racer-pics/hulkenberg.jpg",
+        "name": "Nico Hülkenberg", 
+        "teams": [
             { "team": "Racing Point", "years": [2020, 2021] },
             { "team": "Aston Martin", "years": [2022] },
             { "team": "Haas", "years": [2023, 2024] },
@@ -181,7 +225,9 @@
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Nyck de Vries", "teams": [
+    {   "image": "/public/img/racer-pics/vries.jpg",
+        "name": "Nyck de Vries", 
+        "teams": [
         
             { "team": "Williams", "years": [2022, 2023] }
         ], 
@@ -189,35 +235,46 @@
         "wins": "4",
         "championships": "1"
     },
-    { "name": "Charles Leclerc", "teams": [
+    { 
+        "image": "/public/img/racer-pics/leclerc.jpg",
+        "name": "Charles Leclerc", 
+        "teams": [
             { "team": "Ferrari", "years": [2020, 2021, 2022, 2023, 2024, 2025] }
         ], 
         "poleposition": "27",
         "wins": "8",
         "championships": "0"
     },
-    { "name": "Logan Sargeant", "teams": [
+    {   "image": "/public/img/racer-pics/sargeant.jpg",
+        "name": "Logan Sargeant", 
+        "teams": [
             { "team": "Williams", "years": [2023, 2024] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Oscar Piastri", "teams": [
+    {   "image": "/public/img/racer-pics/piastri.jpg",
+        "name": "Oscar Piastri", 
+        "teams": [
             { "team": "McLaren", "years": [2023, 2024, 2025] }
         ], 
         "poleposition": "4",
         "wins": "8",
         "championships": "0"
     },
-    { "name": "Kimi Antonelli", "teams": [
+    {   "image": "/public/img/racer-pics/antonelli.jpg",
+        "name": "Kimi Antonelli", 
+        "teams": [
             { "team": "Mercedes", "years": [2025] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Liam Lawson", "teams": [
+    {   "image": "/public/img/racer-pics/lawson.jpg",
+        "name": "Liam Lawson", 
+        "teams": [
 
             { "team": "AlphaTauri / Red Bull Racing", "years": [2023, 2024, 2025] }
         ], 
@@ -225,7 +282,9 @@
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Fernando Alonso",  "teams": [
+    {   "image": "/public/img/racer-pics/alonso.jpg",
+        "name": "Fernando Alonso",  
+        "teams": [
             { "team": "Alpine", "years": [2021, 2022] },
             { "team": "Aston Martin", "years": [2023, 2024, 2025] }
         ], 
@@ -233,14 +292,18 @@
         "wins": "5",
         "championships": "1"
     },
-    { "name": "Oliver Bearman", "teams": [
+    {   "image": "/public/img/racer-pics/bearman.jpg",
+        "name": "Oliver Bearman", 
+        "teams": [
             { "team": "Haas", "years": [2024, 2025] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Franco Colapinto", "teams": [
+    {   "image": "/public/img/racer-pics/colapinto.jpg",
+        "name": "Franco Colapinto", 
+        "teams": [
             { "team": "Williams", "years": [2024] },
             { "team": "Alpine", "years": [2025] }
         ], 
@@ -248,49 +311,63 @@
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Gabriel Bortoleto", "teams": [
+    {   "image": "/public/img/racer-pics/bortoleto.jpg",
+        "name": "Gabriel Bortoleto", 
+        "teams": [
             { "team": "Sauber / Audi", "years": [2025] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Isack Hadjar", "teams": [
+    {   "image": "/public/img/racer-pics/hadjar.jpg",
+        "name": "Isack Hadjar", 
+        "teams": [
             { "team": "Racing Bulls", "years": [2025] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Jack Doohan", "teams": [
+    {   "image": "/public/img/racer-pics/doohan.jpg",
+        "name": "Jack Doohan", 
+        "teams": [
             { "team": "Alpine", "years":[2024, 2025] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Antonio Giovinazzi", "teams": [
+    {   "image": "/public/img/racer-pics/giovinazzi.jpg",
+        "name": "Antonio Giovinazzi", 
+        "teams": [
             { "team": "Alfa Romeo", "years":[2020, 2021] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Jack Aitken", "teams": [
+    {   "image": "/public/img/racer-pics/aitken.jpg",
+        "name": "Jack Aitken", 
+        "teams": [
             { "team": "Williams", "years":[2020] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Pietro Fitipaldi", "teams": [
+    {   "image": "/public/img/racer-pics/fitipaldi.jpg",
+        "name": "Pietro Fitipaldi", 
+        "teams": [
             { "team": "Haas", "years":[2020] }
         ], 
         "poleposition": "0",
         "wins": "0",
         "championships": "0"
     },
-    { "name": "Robert Kubica", "teams": [
+    {   "image": "/public/img/racer-pics/kubica.jpg",
+        "name": "Robert Kubica", 
+        "teams": [
             { "team": "Alfa Romeo", "years":[2020] }
         ], 
         "poleposition": "0",
